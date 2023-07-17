@@ -1,0 +1,121 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: black;
+  color: #333;
+}
+
+span{
+  color: #b0b0b0;
+}
+
+.planets{
+  object-fit: cover;
+  margin: 10px auto;
+  height: 100%;
+  width: 100%;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  margin: 45px;
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.left{
+  width: 30px;
+}
+
+.right{
+  width: 30px;
+}
+
+.txt-2{
+  text-align: center;
+  z-index: 1;
+  margin-top: 200px;
+  position: relative;
+}
+
+.move{
+  position: absolute;
+  right: 65px;
+  top: -150px;
+}
+
+.inv{
+  font-size: 20px;
+}
+
+.name{
+  font-size: 60px;
+}
+
+/*.left{
+  filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);
+  width: 50px;
+}*/
+
+button{
+  border: none;
+  background-color: transparent;
+  outline: none;
+  color: #333;
+}
+
+button:hover{
+ color: #dadada;
+ cursor: pointer; 
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  text-align: center;
+  transform: translate(-10px,0);
+}
+.dropdown-content a {
+  display: block;
+  color: #9a9a9a;
+  padding: 5px;
+  text-decoration: none;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: none;
+}
+
+@media (max-width:360px){
+  .move{
+  position: absolute;
+  right: 30px;
+  top: -150px;
+}
+
+.left{
+  width: 30px;
+  transform: translate(0px, -40px);
+}
+
+.right{
+  width: 30px;
+  transform: translate(0px, -40px);
+}
+}
