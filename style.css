@@ -31,24 +31,24 @@ span{
   margin: 45px;
 }
 
-.txt-2{
+.txt-2-nep{
   text-align: center;
   z-index: 1;
   margin-top: 200px;
   position: relative;
 }
 
-.move{
+.move-nep{
   position: absolute;
   right: 65px;
   top: -150px;
 }
 
-.inv{
+.inv-nep{
   font-size: 20px;
 }
 
-.name{
+.name-nep{
   font-size: 60px;
 }
 
